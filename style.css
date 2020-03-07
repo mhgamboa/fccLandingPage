@@ -133,4 +133,6 @@ button:hover {
 /* Below refers to the landing view (what the user sees when they hit the page */
 
 .landing-view {
+  display: grid;
+  grid-template-areas: ;
 }
