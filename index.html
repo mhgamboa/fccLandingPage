@@ -19,7 +19,6 @@
         <ul>
           <li><a href="#" class="nav-link">Ram Quality</a></li>
           <li><a href="#" class="nav-link">Prices</a></li>
-          <li><a href="#" class="nav-link">Buy Now</a></li>
           <!-- Mobile button will be used for mobile version when I've learned JS -->
           <!-- <a href="#"
             ><button class="Button" id="mobile-button">Get Started</button></a
@@ -38,20 +37,38 @@
     <!-- End Navbar -->
 
     <!-- Start Landing View -->
-    <div class="landing-view"></div>
+    <div class="landingview">
+      <h1>Download Your RAM Today</h1>
+      <img
+        src="https://cdn.pixabay.com/photo/2015/03/21/06/42/ram-683250_960_720.png"
+        alt="ram"
+      />
+      <p>Unlimited high-speed RAM now available at your disposal</p>
+      <a href="#"
+        ><button class="Button" id="desktop-button">Get Started Now</button></a
+      >
+    </div>
     <!-- End Landing View -->
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/-7kDiamS3cc"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      id="video"
-      allowfullscreen
-    ></iframe>
-
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <!-- Start video and features -->
+    <div class="video-features">
+      <iframe
+        src="https://www.youtube.com/embed/-7kDiamS3cc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        id="video"
+        allowfullscreen
+      ></iframe>
+      <div>
+        <ul>
+          <li>Incridble rates</li>
+          <li>speeds up to 88 MPH</li>
+          <li>100% virtual and hardware free</li>
+          <li>100% legit</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <form action="https://www.freecodecamp.com/email-submit" id="form">
       <input
         type="email"
         name="email"
@@ -59,8 +76,7 @@
         placeholder="Enter Email Address Here"
       />
       <input id="submit" type="submit" value="Get Started" class="btn" />
-    </form>
-
+    </form> -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
